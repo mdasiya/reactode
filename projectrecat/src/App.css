@@ -1,0 +1,111 @@
+*
+{
+  margin: 0;
+  padding: 0;
+}
+
+.Nav-ul li
+{
+  display: inline-block;
+  padding: 10px;
+}
+
+.Nav-ul li a
+{
+
+  display: inline-block;
+  padding: 10px;
+  color: white;
+}
+
+.Nav-ul li  :hover{
+  background-color: red;
+}
+
+.Nav-ul{
+  background-color: cadetblue;
+  
+
+}
+
+.Footer
+{
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  background-color: cadetblue;
+  
+
+}
+
+.Register
+{
+  width: 400px;
+  background-color: white;
+  border-radius: 5px;
+  text-align: center;
+  margin: auto;
+
+}
+
+h2{
+  color: orange;
+}
+
+button
+{
+  margin: 25px;
+  padding: 10px;
+  width: 150px;
+  background-color: cadetblue;
+  color: white;
+  border: 1px solid cadetblue ;
+  box-shadow: 5px 10px 8px #888888;
+}
+
+.demo
+{
+  width: 500px;
+  background-color: orange;
+  margin: auto;
+  padding: 30px;
+  border-radius: 5px;
+  margin-top: 50px;
+}
+
+.Input-box
+{
+  display: block;
+  margin: 30px;
+  padding: 10px;
+  width: 300px;
+  border: 5px solid cadetblue;
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+}
+
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
